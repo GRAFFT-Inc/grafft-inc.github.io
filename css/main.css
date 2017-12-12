@@ -55,6 +55,10 @@ ul.posts li {
   width: 600px;
 }
 
+.rocket-tree-container {
+  align-self: flex-end;
+}
+
 .main-1 {
   background-color: #fdfae7;
   color: #4f4f4f;
