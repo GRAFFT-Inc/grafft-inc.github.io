@@ -1,7 +1,8 @@
-body {
+html, body {
   font-family:'Open Sans', 'Arial', 'Sans-Serif';
   color: #4f4f4f;
   margin: 0;
+  padding: 0;
 }
 nav ul, footer ul {
   padding: 0px;
@@ -16,104 +17,61 @@ a {
   text-decoration: none;
   color: #e45d30;
 }
-h1 {
-  font-size: 3em;
+
+.main-content-wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
-h4 {
-  font-size: 2em;
-}
-p {
-  font-size: 1.5em;
-  line-height: 1.4em;
-}
-footer {
-  background-color: #035060;
-  font-size: .8em;
+.section-1 {
+    background-color: #000;
+    width: 100%;
 }
 
-footer > ul {
-  margin: 0;
-  padding: 30px;
+.header-copy {
+    left: calc(50% - 350px);
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    width: 700px;
+    z-index: 999;
 }
 
-ul.posts {
-  margin: 20px auto 40px;
-  font-size: 1.5em;
+.header-copy h1, .header-copy h2 {
+    color: #fff;
+    font-size: 42px;
 }
 
-ul.posts li {
-  list-style: none;
+.header-copy h2 {
+    font-size: 18px;
 }
 
-.logo-hero {
-  width: 200px;
-  padding-bottom: 20px;
+hr {
+    border-color: #fff;
+    margin: 60px auto;
+    opacity: 0.15;
+    width: 60%;
 }
 
-.illustration {
-  width: 100%;
+.section-1-img {
+    left: 0;
+    opacity: 0.4;
+    top: 0;
 }
 
-.horizontal-padding {
-  padding: 0 30px;
+a.btn {
+    border: 2px solid #d43673;
+    border-radius: 4px;
+    margin: 0 10px;
+    padding: 10px 20px;
 }
 
-.rocket-tree-container {
-  align-self: flex-end;
+a.btn-primary {
+    background-color: #d43673;
+    color: #fff;
 }
 
-.main-1 {
-  background-color: #fdfae7;
-  color: #4f4f4f;
-}
-
-.spacer-top {
-  margin-top: 30px;
-}
-
-.main-2 {
-  background-color: #035060;
-  color: #fff;
-}
-
-.main-3 {
-  background-color: #fff;
-  color: #4f4f4f;
-}
-
-.main-4 {
-  background-color: #b53448;
-}
-
-.main-5 {
-  background-color: #fece02;
-}
-
-.main-6 {
-  background-color: #1fae54;
-}
-
-.main-7 {
-  background-color: #ff9d28;
-}
-
-.main-8 {
-  background-color: #e45d30;
-}
-
-.main-9 {
-  background-color: #99d3e7;
-}
-
-.comfy {
-  margin: 20px auto;
-}
-
-.hero.is-primary {
-  background-color: #1fae54;
-}
-
-.field {
-  margin-top: 24px;
+a.btn-ghost {
+    color: #fff;
 }
