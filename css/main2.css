@@ -59,7 +59,7 @@ a {
 }
 
 .p2 {
-    background-image: url('../images/planning.jpg');
+    background-image: url('../images/programming.jpg');
 }
 
 .p3 {
@@ -67,7 +67,7 @@ a {
 }
 
 .p4 {
-    background-image: url('../images/programming.jpg');
+    background-image: url('../images/planning.jpg');
 }
 
 
@@ -119,5 +119,15 @@ section.copy hgroup h1 {
 
 section.copy hgroup h2 {
     font-size: 1.5vw;
-    line-height: 1.7vw;
+    line-height: 2vw;
+}
+
+
+/*
+    How we work with you
+*/
+
+.how-we-work-with-you h2 {
+    margin: 2vh auto;
+    width: 50vw;
 }
