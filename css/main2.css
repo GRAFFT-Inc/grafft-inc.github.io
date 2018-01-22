@@ -1,0 +1,123 @@
+html, body {
+    background-color: #000;
+    color: #4f4f4f;
+    font-family: 'Open Sans', 'Arial', 'Sans-Serif';
+    height: 100%;
+    line-height: 1.8em;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #e45d30;
+    text-decoration: none;
+}
+
+/*
+    Parallax Images
+*/
+.section {
+    border-top: 0.5vh solid #000;
+    border-bottom: 0.5vh solid #000;
+    position: relative;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+        -ms-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    width: 100%;
+}
+
+.p1 {
+    border-top: 0;
+    z-index: 1;
+}
+
+.p1:before {
+    background-image: url('../images/grafft_rocket_tree.jpg');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+        -ms-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    background-attachment: fixed;
+    content: ' ';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.p2 {
+    background-image: url('../images/planning.jpg');
+}
+
+.p3 {
+    background-image: url('../images/technology.jpg');
+}
+
+.p4 {
+    background-image: url('../images/programming.jpg');
+}
+
+
+/*
+    Main Header Copy
+*/
+.p1 hgroup {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    width: 100%;
+}
+
+.p1 hgroup h1 {
+    color: #fff;
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 5vh;
+    margin-bottom: 3.5vh;
+}
+
+.p1 hgroup h2 {
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 200;
+    line-height: 3.2vh;
+}
+
+
+
+/*
+    Text sections between the parallax images
+*/
+.section-light {
+    background-color: #fff;
+}
+
+section.copy {
+    padding: 7vw 7vh;;
+    text-align: center;
+}
+
+section.copy hgroup h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.8vw;
+    font-size: 2.5vw;
+    margin-bottom: 2vh;
+}
+
+section.copy hgroup h2 {
+    font-size: 1.5vw;
+    line-height: 1.7vw;
+}
