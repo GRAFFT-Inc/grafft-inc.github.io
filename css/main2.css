@@ -1,11 +1,11 @@
 html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     background-color: #000;
     color: #515b69;
     font-family: 'Source Sans Pro', 'Arial', 'Sans-Serif';
-    height: 100%;
     line-height: 1.8em;
-    margin: 0;
-    padding: 0;
 }
 
 a {
@@ -18,13 +18,13 @@ a {
     Main nav
 */
 header {
-    top: 0;
-    left: 0;
-    right: 0;
     position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
     padding: 1vw 1vw 0;
     width: calc(100% - 2vw);
-    z-index: 999;
     transition: 1s;
 }
 
@@ -39,14 +39,15 @@ header h1 {
 
 header h1 span.title {
     position: absolute;
-    left: -9999999999999px;
+    left: -9999999999px;
+    overflow: hidden;
 }
 
 .main-nav {
-    text-align: right;
-    width: 70vw;
     float: right;
     padding-top: 1vh;
+    width: 70vw;
+    text-align: right;
 }
 
 .main-nav li {
@@ -67,46 +68,47 @@ header h1 span.title {
     Parallax Images
 */
 .section {
-    border-top: 0.5vh solid #000;
-    border-bottom: 0.5vh solid #000;
     position: relative;
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-        -ms-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
-    background-attachment: fixed;
+    z-index: 1;
     min-height: 70%;
     width: 100%;
+    border-top: 0.5vh solid #000;
+    border-bottom: 0.5vh solid #000;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+        -ms-background-size: cover;
+            background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .p1 {
-    border-top: 0;
-    height: 100%;
     z-index: 1;
+    height: 100%;
+    border-top: 0;
 }
 
 .p1::before {
-    background-image: url('../images/grafft_rocket_tree.jpg');
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-        -ms-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
-    background-attachment: fixed;
-    content: ' ';
-    display: block;
-    height: 100%;
-    left: 0;
-    opacity: 0.4;
     position: absolute;
     top: 0;
-    width: 100%;
+    left: 0;
     z-index: -1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/grafft_rocket_tree.jpg');
+    background-attachment: fixed;
+    background-position: 50% 0;
+         -o-background-size: cover;
+        -ms-background-size: cover;
+       -moz-background-size: cover;
+    -webkit-background-size: cover;
+            background-size: cover;
+    background-repeat: no-repeat;
+    content: ' ';
+    opacity: 0.4;
 }
 
 .p2 {
@@ -127,23 +129,23 @@ header h1 span.title {
 */
 .p1 hgroup {
     position: absolute;
-    text-align: center;
     top: 45%;
     width: 100%;
+    text-align: center;
 }
 
 .p1 hgroup h1 {
-    color: #fff;
-    font-size: 5vw;
-    font-weight: 200;
-    line-height: 4vw;
     margin-bottom: 3vw;
+    color: #fff;
+    font-weight: 200;
+    font-size: 5vw;
+    line-height: 4vw;
 }
 
 .p1 hgroup h2 {
     color: #fff;
-    font-size: 2vw;
     font-weight: 200;
+    font-size: 2vw;
     line-height: 2vw;
 }
 
@@ -161,20 +163,24 @@ section.copy {
 }
 
 section.copy hgroup {
-    width: 70vw;
+    width: 80vw;
+}
+
+section.copy-left {
+    padding-left: 10vw;
 }
 
 section.copy hgroup h1 {
-    font-size: 3vw;
-    font-weight: 300;
     margin-bottom: 1.5vw;
+    font-weight: 300;
+    font-size: 3vw;
 }
 
 section.copy hgroup h2 {
-    font-size: 1.7vw;
-    line-height: 2vw;
     margin-bottom: 2vw;
     font-weight: 200;
+    font-size: 1.7vw;
+    line-height: 2vw;
 }
 
 section.copy hgroup h3 {
@@ -187,7 +193,7 @@ section.copy hgroup h3 {
     How we work with you
 */
 .how-we-work-with-you h2 {
-    width: 50vw;
+    width: 60vw;
 }
 
 .how-we-work-with-you h3 {
