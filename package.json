@@ -1,0 +1,23 @@
+{
+  "name": "grafft",
+  "version": "1.0.0",
+  "description": "Development ------ 1. `bundle install` 2. `bundle exec jekyll serve` 3. Browse to http://localhost:4000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GRAFFT-Inc/grafft-inc.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GRAFFT-Inc/grafft-inc.github.io/issues"
+  },
+  "homepage": "https://github.com/GRAFFT-Inc/grafft-inc.github.io#readme",
+  "dependencies": {
+    "stylelint": "^8.4.0",
+    "stylelint-order": "^0.8.0"
+  }
+}

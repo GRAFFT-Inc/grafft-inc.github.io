@@ -1,11 +1,11 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
     background-color: #000;
     color: #515b69;
-    font-family: 'Source Sans Pro', 'Arial', 'Sans-Serif';
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    height: 100%;
     line-height: 1.8em;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -18,18 +18,18 @@ a {
     Main nav
 */
 header {
-    position: fixed;
-    top: 0;
-    right: 0;
     left: 0;
-    z-index: 999;
     padding: 1vw 1vw 0;
-    width: calc(100% - 2vw);
+    position: fixed;
+    right: 0;
+    top: 0;
     transition: 1s;
+    width: calc(100% - 2vw);
+    z-index: 999;
 }
 
 header.scrolled {
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0, 0, 0, 0.9);
     transition: 1s;
 }
 
@@ -38,16 +38,16 @@ header h1 {
 }
 
 header h1 span.title {
-    position: absolute;
     left: -9999999999px;
     overflow: hidden;
+    position: absolute;
 }
 
 .main-nav {
     float: right;
     padding-top: 1vh;
-    width: 70vw;
     text-align: right;
+    width: 70vw;
 }
 
 .main-nav li {
@@ -57,6 +57,8 @@ header h1 span.title {
 
 .main-nav a {
     color: #fff;
+    font-size: 1vw;
+    font-weight: 200;
 }
 
 .main-nav a:hover {
@@ -68,47 +70,39 @@ header h1 span.title {
     Parallax Images
 */
 .section {
-    position: relative;
-    z-index: 1;
-    min-height: 70%;
-    width: 100%;
-    border-top: 0.5vh solid #000;
-    border-bottom: 0.5vh solid #000;
     background-attachment: fixed;
     background-position: 50% 0;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-        -ms-background-size: cover;
-            background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 0.5vh solid #000;
+    border-top: 0.5vh solid #000;
+    min-height: 70%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
 }
 
 .p1 {
-    z-index: 1;
-    height: 100%;
     border-top: 0;
+    height: 100%;
+    z-index: 1;
 }
 
 .p1::before {
+    background-attachment: fixed;
+    background-image: url('../images/grafft_rocket_tree.jpg');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: ' ';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
     position: absolute;
     top: 0;
-    left: 0;
-    z-index: -1;
-    display: block;
     width: 100%;
-    height: 100%;
-    background-image: url('../images/grafft_rocket_tree.jpg');
-    background-attachment: fixed;
-    background-position: 50% 0;
-         -o-background-size: cover;
-        -ms-background-size: cover;
-       -moz-background-size: cover;
-    -webkit-background-size: cover;
-            background-size: cover;
-    background-repeat: no-repeat;
-    content: ' ';
-    opacity: 0.4;
+    z-index: -1;
 }
 
 .p2 {
@@ -129,23 +123,23 @@ header h1 span.title {
 */
 .p1 hgroup {
     position: absolute;
+    text-align: center;
     top: 45%;
     width: 100%;
-    text-align: center;
 }
 
 .p1 hgroup h1 {
-    margin-bottom: 3vw;
     color: #fff;
-    font-weight: 200;
     font-size: 5vw;
+    font-weight: 200;
     line-height: 4vw;
+    margin-bottom: 3vw;
 }
 
 .p1 hgroup h2 {
     color: #fff;
-    font-weight: 200;
     font-size: 2vw;
+    font-weight: 200;
     line-height: 2vw;
 }
 
@@ -171,16 +165,16 @@ section.copy-left {
 }
 
 section.copy hgroup h1 {
-    margin-bottom: 1.5vw;
-    font-weight: 300;
     font-size: 3vw;
+    font-weight: 300;
+    margin-bottom: 1.5vw;
 }
 
 section.copy hgroup h2 {
-    margin-bottom: 2vw;
-    font-weight: 200;
     font-size: 1.7vw;
+    font-weight: 200;
     line-height: 2vw;
+    margin-bottom: 2vw;
 }
 
 section.copy hgroup h3 {
