@@ -34,7 +34,7 @@ header {
 }
 
 header.scrolled {
-    background-color: #3d464d;
+    background-color: #323b43;
     transition: 1s;
 }
 
@@ -69,6 +69,22 @@ header h1 span.title {
 
 .main-nav a:hover {
     text-decoration: underline;
+}
+
+a.button {
+    border-radius: 2px;
+    font-weight: 400;
+    padding: 0.7vw 1vw;
+}
+
+a.button-dark {
+    background-color: #e01f3d;
+    color: #fff;
+}
+
+a.button-light {
+    background-color: #fff;
+    color: #000;
 }
 
 
@@ -180,11 +196,6 @@ section.copy-left {
     padding-left: 10vw;
 }
 
-section.copy-right {
-    padding-right: 10vw;
-    text-align: right;
-}
-
 section.copy hgroup h1 {
     font-size: 3vw;
     font-weight: 300;
@@ -207,22 +218,17 @@ section.copy hgroup h3 {
 /*
     How we work with you
 */
-.how-we-work-with-you h2 {
+.how-we-work-with-you h2,
+.experience h2,
+.who-made-this h2,
+.get-in-touch h2 {
     width: 60vw;
 }
 
-.how-we-work-with-you h3 {
-    width: 40vw;
-}
-
-/*
-    Experience and Technology
-*/
-.experience h2 {
-    width: 60vw;
-}
-
-.experience h3 {
+.how-we-work-with-you h3,
+.experience h3,
+.who-made-this h3,
+.get-in-touch h3 {
     width: 40vw;
 }
 
@@ -253,4 +259,44 @@ section.copy hgroup h3 {
 
 .design {
     border: 1px solid #ddd;
+}
+
+form {
+    width: 100%;
+}
+
+form ::placeholder {
+    color: #bbb;
+}
+
+form input {
+    border: 1px solid #ccc;
+    display: block;
+    font-size: 1.2vw;
+    margin: 1vw 0;
+    padding: 1vw;
+    width: 30vw;
+}
+
+form label {
+    display: block;
+}
+
+form textarea {
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-size: 1.2vw;
+    margin: 0 0 1vw;
+    padding: 1vw;
+    width: 30vw;
+}
+
+form button {
+    background-color: #e01f3d;
+    border: 0;
+    color: #fff;
+    display: block;
+    font-size: 1vw;
+    padding: 0.7vw 1vw;
+    text-transform: uppercase;
 }
