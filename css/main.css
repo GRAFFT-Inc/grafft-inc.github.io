@@ -82,9 +82,17 @@ a.button {
     padding: 0.7vw 1vw;
 }
 
+a.button:hover {
+    text-decoration: none;
+}
+
 a.button-dark {
     background-color: #e01f3d;
     color: #fff;
+}
+
+a.button-dark:hover {
+    background-color: #c70624;
 }
 
 a.button-light {
@@ -301,7 +309,11 @@ form button {
     display: block;
     font-size: 1vw;
     padding: 0.7vw 1vw;
-    text-transform: uppercase;
+}
+
+form button:hover {
+    background-color: #c70624;
+    cursor: pointer;
 }
 
 .get-in-touch {
@@ -310,6 +322,8 @@ form button {
 }
 
 .get-in-touch hgroup {
+    align-items: flex-end;
+    display: flex;
     width: 60% !important;
 }
 
@@ -324,5 +338,5 @@ form button {
 }
 
 .get-in-touch figure img {
-    margin-bottom: -2vw;
+    margin: 0 0 -2vw 4vw;
 }
