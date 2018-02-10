@@ -151,6 +151,7 @@ a.button-light {
 
 .p4 {
     background-image: url('../images/planning.jpg');
+    border-bottom: 3px solid #232323;
 }
 
 
@@ -226,15 +227,13 @@ section.copy hgroup h3 {
 */
 .how-we-work-with-you h2,
 .experience h2,
-.who-made-this h2,
-.get-in-touch h2 {
+.who-made-this h2 {
     width: 60vw;
 }
 
 .how-we-work-with-you h3,
 .experience h3,
-.who-made-this h3,
-.get-in-touch h3 {
+.who-made-this h3 {
     width: 40vw;
 }
 
@@ -306,4 +305,17 @@ form button {
     font-size: 1vw;
     padding: 0.7vw 1vw;
     text-transform: uppercase;
+}
+
+.get-in-touch {
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-in-touch hgroup {
+    width: 60% !important;
+}
+
+.get-in-touch h2 {
+    width: 75%;
 }
