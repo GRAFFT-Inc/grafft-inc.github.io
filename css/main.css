@@ -172,7 +172,7 @@ a.button-light {
     color: #fff;
     font-size: 2vw;
     font-weight: 200;
-    line-height: 2vw;
+    line-height: 2.3vw;
 }
 
 
@@ -205,7 +205,7 @@ section.copy hgroup h1 {
 section.copy hgroup h2 {
     font-size: 1.7vw;
     font-weight: 200;
-    line-height: 2vw;
+    line-height: 2.3vw;
     margin-bottom: 2vw;
 }
 
