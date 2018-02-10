@@ -179,6 +179,11 @@ section.copy-left {
     padding-left: 10vw;
 }
 
+section.copy-right {
+    padding-right: 10vw;
+    text-align: right;
+}
+
 section.copy hgroup h1 {
     font-size: 3vw;
     font-weight: 300;
@@ -209,6 +214,17 @@ section.copy hgroup h3 {
     width: 40vw;
 }
 
+/*
+    Experience and Technology
+*/
+.experience h2 {
+    width: 60vw;
+}
+
+.experience h3 {
+    width: 40vw;
+}
+
 .favorites {
     margin-top: 5vw;
 }
@@ -216,7 +232,7 @@ section.copy hgroup h3 {
 .favorites ul li {
     display: inline-block;
     font-size: 1vw;
-    margin: 0 1.5vw;
+    margin: 0 1.2vw;
     text-align: center;
 }
 
@@ -230,7 +246,8 @@ section.copy hgroup h3 {
 
 .favorites ul li img {
     display: block;
-    height: 4vw;
+    height: 2.5vw;
+    margin: 0 auto;
 }
 
 .design {
