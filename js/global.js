@@ -1,6 +1,6 @@
 $(function() {
     // scrolly pants
-    $(window).on('scroll', function() {
+    $(window).on('scroll load', function() {
         const pos = $(window).scrollTop();
         if (pos > 75) {
             $('header').addClass('scrolled');
