@@ -294,6 +294,7 @@ form textarea {
 form button {
     background-color: #e01f3d;
     border: 0;
+    border-radius: 3px;
     color: #fff;
     display: block;
     font-size: 1vw;
