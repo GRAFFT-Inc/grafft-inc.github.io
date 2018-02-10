@@ -319,3 +319,13 @@ form button {
 .get-in-touch h2 {
     width: 75%;
 }
+
+.get-in-touch figure {
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.get-in-touch figure img {
+    margin-bottom: -2vw;
+}
