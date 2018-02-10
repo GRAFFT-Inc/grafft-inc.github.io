@@ -10,4 +10,7 @@ $(function() {
             $('section.p1').removeClass('scrolled');
         }
     });
+
+    // external links should open new window
+    $('.favorites ul li a').attr('target', '_blank');
 });

@@ -13,6 +13,11 @@ a {
     text-decoration: none;
 }
 
+.amp {
+    font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+    font-style: italic;
+    font-weight: normal;
+}
 
 /*
     Main nav
@@ -29,7 +34,7 @@ header {
 }
 
 header.scrolled {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #3d464d;
     transition: 1s;
 }
 
@@ -201,5 +206,29 @@ section.copy hgroup h3 {
 }
 
 .how-we-work-with-you h3 {
-    width: 30vw;
+    width: 40vw;
+}
+
+.favorites {
+    margin-top: 5vw;
+}
+
+.favorites ul li {
+    display: inline-block;
+    font-size: 1vw;
+    margin: 0 1.5vw;
+    text-align: center;
+}
+
+.favorites ul li:first-child {
+    margin-left: 0;
+}
+
+.favorites ul li:last-child {
+    margin-right: 0;
+}
+
+.favorites ul li img {
+    display: block;
+    height: 4vw;
 }
