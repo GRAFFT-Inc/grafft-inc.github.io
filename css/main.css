@@ -232,3 +232,7 @@ section.copy hgroup h3 {
     display: block;
     height: 4vw;
 }
+
+.design {
+    border: 1px solid #ddd;
+}
