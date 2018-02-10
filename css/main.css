@@ -24,7 +24,7 @@ a {
 */
 header {
     left: 0;
-    padding: 1vw 1vw 0;
+    padding: 1vw;
     position: fixed;
     right: 0;
     top: 0;
@@ -40,6 +40,7 @@ header.scrolled {
 
 header h1 {
     display: inline-block;
+    margin-top: 5px;
 }
 
 header h1 span.title {
