@@ -210,7 +210,7 @@ section.copy hgroup h1 {
 
 section.copy hgroup h2 {
     font-size: 2vw;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 2.3vw;
     margin-bottom: 2vw;
 }
@@ -221,10 +221,11 @@ section.copy hgroup h3 {
     margin-bottom: 2vw;
 }
 
+.what-we-do hgroup h1 {
+    line-height: 3.5vw;
+    text-align: center;
+}
 
-/*
-    How we work with you
-*/
 .how-we-work-with-you h2,
 .experience h2,
 .who-made-this h2 {
@@ -281,10 +282,6 @@ form input {
     margin: 1vw 0;
     padding: 1vw;
     width: 30vw;
-}
-
-form label {
-    display: block;
 }
 
 form textarea {
