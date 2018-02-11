@@ -1,4 +1,4 @@
 name: GRAFFT - Web development with Ruby on Rails, React, and NodeJS
 markdown: kramdown
-gems:
+plugins:
   - jekyll-sitemap
