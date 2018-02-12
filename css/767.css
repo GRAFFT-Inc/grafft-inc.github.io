@@ -11,7 +11,12 @@
         padding: 1.4vw 2vw;
     }
 
+    .section {
+        background-attachment: scroll;
+    }
+
     section.p1::after {
+        background-attachment: scroll;
         background-position: 15% 0;
     }
 
@@ -35,6 +40,21 @@
 
     section.p4 {
         background-position: 65% 0;
+    }
+
+    section.copy hgroup h1 {
+        font-size: 5vw;
+        line-height: 5.5vw;
+    }
+
+    section.copy hgroup h2 {
+        font-size: 4vw;
+        line-height: 4.5vw;
+    }
+
+    section.copy hgroup .favorites h3 {
+        font-size: 3.5vw;
+        line-height: 4vw;
     }
 
     #get-in-touch figure img {
