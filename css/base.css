@@ -246,7 +246,7 @@ section.copy hgroup h3 {
     width: 40vw;
 }
 
-.favorites {
+.favorites-spacer-top {
     margin-top: 5vw;
 }
 
@@ -269,6 +269,7 @@ section.copy hgroup h3 {
     display: block;
     height: 2.5vw;
     margin: 0 auto;
+    min-height: 40px;
 }
 
 .design {
@@ -354,4 +355,16 @@ form button:hover {
 
 #success {
     display: block;
+}
+
+.spacer-top {
+  padding-top: 20px;
+}
+
+.spacer-top-big {
+  padding-top: 60px;
+}
+
+.spacer-bottom {
+  padding-bottom: 20px;
 }
