@@ -234,6 +234,26 @@ section.copy hgroup h3 {
     text-align: center;
 }
 
+.rocket-tree {
+  height: 15vw;
+  min-height: 400px;
+  padding-right: 40px;
+}
+
+.left-container {
+  flex-grow: 1;
+}
+
+.right-container {
+  flex-grow: 1;
+}
+
+.how-we-work-with-you {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
 .how-we-work-with-you h2,
 .experience h2,
 .who-made-this h2 {
@@ -250,10 +270,14 @@ section.copy hgroup h3 {
     margin-top: 5vw;
 }
 
+ul {
+  margin: 0;
+}
+
 .favorites ul li {
     display: inline-block;
     font-size: 1vw;
-    margin: 0 1.2vw;
+    margin: 0 20px;
     text-align: center;
 }
 
@@ -320,17 +344,13 @@ form button:hover {
 
 .get-in-touch {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .get-in-touch hgroup {
-    align-items: flex-start;
+    align-items: center;
     display: flex;
-    width: 60% !important;
-}
-
-.get-in-touch h2 {
-    width: 75%;
+    width: 50% !important;
 }
 
 .get-in-touch figure {
@@ -339,12 +359,8 @@ form button:hover {
     justify-content: flex-start;
 }
 
-.get-in-touch figure img {
-    margin: 0 0 -2vw 4vw;
-}
-
-#contact-success {
-    display: none;
+.confirm.ltr {
+    display: none !important;
 }
 
 .spinner, #success {
