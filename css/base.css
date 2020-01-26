@@ -234,9 +234,8 @@ section.copy hgroup h3 {
     text-align: center;
 }
 
-.rocket-tree {
-  height: 15vw;
-  min-height: 400px;
+#rocket-tree {
+  height: 400px;
   padding-right: 40px;
 }
 
