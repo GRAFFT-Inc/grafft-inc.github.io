@@ -39,6 +39,7 @@ Main nav
   header h1 img {
     display: block;
     height: 2.8vw;
+    min-height: 40px;
   }
 
   header h1 span.title {
@@ -68,8 +69,8 @@ Main nav
 
   .main-nav a {
     color: #fff;
-    font-size: 1vw;
-    font-weight: 200;
+    font-size: 14px;
+    font-weight: 700;
   }
 
   .main-nav a:hover {
@@ -99,7 +100,6 @@ Main nav
     background-color: #fff;
     color: #000;
   }
-
 
   /*
   Parallax Images
@@ -175,21 +175,19 @@ Main nav
 
   .p1 hgroup h1 {
     color: #fff;
-    font-size: 5vw;
+    font-size: calc(12px + 4vw);
     font-weight: 400;
     letter-spacing: -0.2vw;
-    line-height: 4vw;
+    line-height: calc(12px + 4vw);
     margin-bottom: 3vw;
   }
 
   .p1 hgroup h2 {
     color: #fff;
-    font-size: 2vw;
+    font-size: calc(14px + 1vw);
     font-weight: 200;
     line-height: 2.3vw;
   }
-
-
 
   /*
   Text sections between the parallax images
@@ -200,10 +198,6 @@ Main nav
 
   section.copy {
     padding: 7vw 7vh;
-  }
-
-  section.copy hgroup {
-    width: 80vw;
   }
 
   section.copy-left {
@@ -239,29 +233,9 @@ Main nav
     padding-right: 40px;
   }
 
-  .left-container {
-    flex-grow: 1;
-  }
-
-  .right-container {
-    flex-grow: 1;
-  }
-
   .how-we-work-with-you {
     display: flex;
     justify-content: space-between;
-  }
-
-  .how-we-work-with-you h2,
-  .experience h2,
-  .who-made-this h2 {
-    width: 60vw;
-  }
-
-  .how-we-work-with-you h3,
-  .experience h3,
-  .who-made-this h3 {
-    width: 40vw;
   }
 
   .favorites-spacer-top {
@@ -362,7 +336,7 @@ Main nav
   .get-in-touch hgroup {
     align-items: center;
     display: flex;
-    width: 50% !important;
+    width: 50%;
   }
 
   .get-in-touch figure {

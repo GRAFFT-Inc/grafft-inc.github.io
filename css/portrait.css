@@ -9,15 +9,13 @@
   }
 
   section.copy hgroup h1 {
-    font-size: 5vw;
+    font-size: calc(12px + 3vw);
     margin-bottom: 4vw;
-    width: 75vw;
   }
 
   section.copy hgroup h2 {
     font-size: 3vw;
     line-height: 3.2vw;
-    width: 70vw;
   }
 
   .favorites ul {
@@ -26,7 +24,6 @@
 
   section.copy hgroup section.favorites h3 {
     font-size: 2.5vw;
-    width: 70vw;
   }
 
   section.copy hgroup ul {
@@ -35,10 +32,6 @@
   section.copy hgroup ul li {
     font-size: 1.5vw;
     margin: 2vw 2.4vw 0 0;
-  }
-
-  section.copy hgroup ul li img {
-    /* height: 3.2vw; */
   }
 
   section.p1 hgroup h2 {

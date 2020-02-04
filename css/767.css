@@ -3,7 +3,6 @@
   header {
     height: 5vh;
     padding: 0 3vw;
-    width: calc(100% - 6vw);
   }
 
   a.button, form button {
@@ -21,13 +20,13 @@
   }
 
   section.p1 hgroup h1 {
-    font-size: 7vw;
-    line-height: 7vw;
+    font-size: calc(12px + 6vw);
+    line-height: calc(12px + 6vw);
   }
 
   section.p1 hgroup h2 {
-    font-size: 4vw;
-    line-height: 5vw;
+    font-size: calc(12px + 3vw);
+    line-height: calc(12px + 3vw);
   }
 
   section.p2 {
@@ -43,13 +42,22 @@
   }
 
   section.copy hgroup h1 {
-    font-size: 5vw;
-    line-height: 5.5vw;
+    font-size: calc(12px + 3vw);
+    line-height: calc(12px + 3vw);
+  }
+
+  .how-we-work-with-you {
+    flex-wrap: wrap;
   }
 
   section.copy hgroup h2 {
     font-size: 4vw;
     line-height: 4.5vw;
+  }
+
+  #rocket-tree {
+    height: 240px;
+    padding-right: 0;
   }
 
   section.copy hgroup .favorites h3 {
