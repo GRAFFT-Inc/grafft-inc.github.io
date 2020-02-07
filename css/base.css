@@ -19,15 +19,13 @@ Main nav
   header {
     align-items: center;
     display: flex;
-    height: 4vw;
     justify-content: space-between;
     left: 0;
-    padding: 0 1vw;
+    padding: 15px;
     position: fixed;
     right: 0;
     top: 0;
     transition: 1s;
-    width: calc(100% - 2vw);
     z-index: 999;
   }
 
@@ -51,7 +49,7 @@ Main nav
   .main-nav {
     float: right;
     text-align: right;
-    width: 70vw;
+    /* width: 70vw; */
   }
 
   .main-nav li {
@@ -80,7 +78,7 @@ Main nav
   a.button {
     border-radius: 2px;
     font-weight: 400;
-    padding: 0.7vw 1vw;
+    padding: calc(5px + 0.5vw) calc(8px + 0.8vw);
   }
 
   a.button:hover {
