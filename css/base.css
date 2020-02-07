@@ -109,7 +109,6 @@ Main nav
     background-size: cover;
     min-height: 70%;
     position: relative;
-    width: 100%;
     z-index: 1;
   }
 
@@ -117,6 +116,9 @@ Main nav
     border-top: 0;
     height: 100%;
     z-index: 1;
+    display: flex;
+    padding: 0 8px;
+    justify-content: center;
   }
 
   .p1::after {
@@ -126,7 +128,6 @@ Main nav
     background-repeat: no-repeat;
     background-size: cover;
     content: ' ';
-    display: block;
     height: 100%;
     left: 0;
     opacity: 0.25;
@@ -168,7 +169,6 @@ Main nav
     position: absolute;
     text-align: center;
     top: 45%;
-    width: 100%;
   }
 
   .p1 hgroup h1 {
